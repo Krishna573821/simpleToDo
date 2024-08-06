@@ -1,0 +1,72 @@
+body{
+    background-image: radial-gradient(rgb(8, 151, 234),rgb(255, 255, 255));
+    height: 100vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    width: 10rem;
+    margin-inline: auto;
+}
+
+input{
+    border-radius: 0.4rem;
+    border: 2px solid grey;
+}
+
+input:hover{
+    border-left: 1rem solid black;
+    transition: 0.2s all ease;
+}
+
+.input, .flexItems {
+    display: grid;
+    grid-template-columns: 20rem 20rem 5rem;
+    column-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItems{
+    margin-top: 2rem;
+}
+
+
+#enterHere, #enterDate{
+    font-size: 1rem;
+    padding: 0.6rem 0.2rem;
+}
+
+.btn {
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn:active{
+    scale: 0.8;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.addBtn{
+    background-color: rgb(22, 124, 22);
+}
+
+.addBtn:hover{
+    background-color: rgb(11, 69, 11);
+}
+
+.deleteBtn{
+    background-color: rgb(216, 22, 22);
+}
+
+.deleteBtn:hover{
+    background-color: rgb(144, 12, 12);
+}
